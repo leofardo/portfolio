@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.card-content{
+  height: 200px;
+}
+
+
+/* INICIO PAGINA PRINCIPAL */
+
+.principal{
+    margin-top: -70px;
+    height: 100vh;
+}
+
+.principal h1{
+    font-size: 4.3rem;
+    margin: none;
+    padding: none;;
+}
+
+.principal h3{
+    color: #489946 !important;
+}
+
+.principal .btn-success, .menu .btn-success{
+    background-color: #489946 !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.menu a{
+    color: #fff;
+}
+
+.menu ul{
+ margin-top: 30px;
+ 
+}
+
+.inicio{
+    color: #fff;
+    background-color: #212121;
+}
+
+.inicio a:hover{
+  color: #489946;
+}
+
+.custom-line {
+  width: 30%;    
+  height: 10px;     
+  background-color: #489946; 
+  margin: 10px 0;
+  border-radius: 10px; 
+}
+
+.icons a{
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 0.5vw;
+}
+
+.inicio p{
+  font-size: 2.9rem;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+    .principal{
+        margin-top: -100px;
+        height: 100vh;
+
+    }
+
+    .principal h1{
+      font-size: 3rem;
+    }
+
+    .custom-line{
+      margin: 30px 0px;
+    }
+
+ 
+    .icons a{
+      margin-right: 1vw;
+    }
+
+    .inicio p{
+      margin-top: 30px;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+  }
+
+
+/* FIM PAGINA PRINCIPAL */
+
+/*  INICIO QUEM SOU EU */
+
+.img-eu{
+    border: 40px solid #489946;
+    border-radius: 30px;
+    box-shadow: -30px 30px 0px; 
+}
+
+.quem-sou > div{
+  height: 100vh;
+}
+
+.container-portfolio{
+    background-color: #212121;
+}
+
+.portfolio h1{
+    color: #fff;
+    text-align: center;
+    padding: 70px 0px;
+}
+
+
+@media (max-width: 900px) {
+
+  #sobre{
+    margin-top: 150px !important;
+  }
+  
+  .quem-sou h1{
+    margin-top: 15px;
+    text-align: center;
+    
+  }
+
+  .quem-sou a{
+    margin-bottom: 60px !important;
+    margin: 0px auto;
+  }
+  
+
+  .quem-sou img{
+    margin-left: 15px;
+  }
+  
+}
+
+
+/*  FIM QUEM SOU EU */
+
+/*  INICIO PROJETOS*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fostrap {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+.fostrap-logo {
+  width: 100px;
+  margin-bottom:15px
+}
+h1.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+}
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+} 
+.card {
+  display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s; 
+    border: none !important;
+}
+.card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.img-card {
+  width: 100%;
+  height:200px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+.img-card img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover; 
+  transition: all .25s ease;
+} 
+.card-content {
+  padding:15px;
+  text-align:left;
+}
+.card-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+.card-title a {
+  color: #000;
+  text-decoration: none !important;
+}
+.card-read-more {
+  border-top: 1px solid #D4D4D4;
+}
+.card-read-more a {
+  text-decoration: none !important;
+  padding:10px;
+  font-weight:600;
+  text-transform: uppercase
+}
+
+.btn-link{
+  color: #489946 !important;
+}
+
+
+/* FOOTER */
+.social-icons {
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.social-icons a {
+  color: #000;
+  margin: 0 4px;
+  font-size: 30px;
+}
+
+
+@media (max-width: 900px) {
+    .card{
+      margin-bottom: 50px;
+    }
+}
